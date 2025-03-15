@@ -5,16 +5,10 @@ VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".environment", ".environment", "{C2B7D0EC-90F5-4B72-95D7-1975B0D27B82}"
 	ProjectSection(SolutionItems) = preProject
-		..\.secrets.cfg = ..\.secrets.cfg
 		..\.gitignore = ..\.gitignore
 		..\Directory.Packages.props = ..\Directory.Packages.props
 		..\Directory.Build.props = ..\Directory.Build.props
 		..\Directory.Build.targets = ..\Directory.Build.targets
-		..\settings.cfg = ..\settings.cfg
-		..\.env = ..\.env
-		..\global.json = ..\global.json
-		..\nuget.config = ..\nuget.config
-		..\paket.dependencies = ..\paket.dependencies
 		..\PublicAssembly.props = ..\PublicAssembly.props
 	EndProjectSection
 EndProject
