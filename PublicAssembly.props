@@ -24,7 +24,7 @@
     <TreatWarningsAsErrors Condition=" '$(IsReleasing)' == 'true' ">true</TreatWarningsAsErrors>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(SignAssembly)' == 'true' ">
-    <AssemblyOriginatorKeyFile>$(RepositoryRoot)/.signing.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>$(RepositoryRoot)/signkey.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 </Project>
 
